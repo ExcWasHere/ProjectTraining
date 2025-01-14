@@ -16,19 +16,19 @@ const heroContent = [
     id: 1,
     title: "Membangun Masa Depan Pertanian",
     subtitle: "Inovasi Berkelanjutan untuk Indonesia",
-    image: "/hero/farming1.jpg",
+    image: "index1.jpg",
   },
   {
     id: 2,
     title: "Dari Alam, Untuk Kehidupan",
     subtitle: "Melestarikan Tradisi, Merangkul Teknologi",
-    image: "/hero/farming2.jpg",
+    image: "index2.jpg",
   },
   {
     id: 3,
     title: "Bersama Menuju Kemandirian",
     subtitle: "Pertanian Modern yang Ramah Lingkungan",
-    image: "/hero/farming3.jpg",
+    image: "index3.jpg",
   },
 ];
 

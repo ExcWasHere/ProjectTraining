@@ -88,7 +88,7 @@ export default function Navbar() {
         className={`w-full fixed top-0 left-0 z-50 transition-all duration-300 ${
           isScrolled || isMobileMenuOpen
             ? "bg-white text-black shadow-lg h-16"
-            : "bg-amber-600 text-white h-20"
+            : "bg-transparent text-white h-20"
         }`}
       >
         <div className="max-w-7xl mx-auto px-4">
