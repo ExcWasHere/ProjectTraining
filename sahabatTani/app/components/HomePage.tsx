@@ -83,7 +83,7 @@ export default function HomePage() {
                     <p className="text-xl md:text-2xl mb-8">
                       {content.subtitle}
                     </p>
-                    <button className="bg-green-600 text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-green-700 transition transform hover:scale-105">
+                    <button className="bg-amber-600 text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-amber-700 transition transform hover:scale-105">
                       Mulai Sekarang
                     </button>
                   </div>
@@ -110,7 +110,7 @@ export default function HomePage() {
                     <div className="text-white">
                       <h2 className="text-3xl font-bold mb-4">Pertanian Pintar</h2>
                       <p className="text-lg mb-6">Optimalkan hasil panen dengan teknologi AI</p>
-                      <button className="bg-white text-green-600 px-6 py-2 rounded-full hover:bg-green-50 transition">
+                      <button className="bg-white text-amber-600 px-6 py-2 rounded-full hover:bg-green-50 transition">
                         Pelajari Lebih Lanjut
                       </button>
                     </div>
@@ -166,17 +166,17 @@ export default function HomePage() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {[
                 {
-                  icon: <FaLeaf className="text-green-500 text-4xl" />,
+                  icon: <FaLeaf className="text-amber-500 text-4xl" />,
                   title: "Rekomendasi Tanaman",
                   description: "AI-powered untuk kondisi lahan optimal"
                 },
                 {
-                  icon: <FaChartLine className="text-green-500 text-4xl" />,
+                  icon: <FaChartLine className="text-amber-500 text-4xl" />,
                   title: "Analisis Prediktif",
                   description: "Prediksi hasil panen dengan akurat"
                 },
                 {
-                  icon: <FaUsers className="text-green-500 text-4xl" />,
+                  icon: <FaUsers className="text-amber-500 text-4xl" />,
                   title: "Komunitas Aktif",
                   description: "Berbagi pengalaman dan pengetahuan"
                 }

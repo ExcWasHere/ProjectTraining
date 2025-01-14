@@ -46,7 +46,7 @@ export default function Navbar() {
         <li key={item.name} className="relative group">
           <a
             href={item.path}
-            className="hover:text-green-400 transition-colors duration-200 relative group flex items-center gap-1"
+            className="hover:text-amber-400 transition-colors duration-200 relative group flex items-center gap-1"
             onClick={(e) => handleProtectedLink(e, item.protected || false)}
           >
             {item.name}
@@ -60,7 +60,7 @@ export default function Navbar() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
               </svg>
             )}
-            <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-green-400 transition-all duration-300 group-hover:w-full"></span>
+            <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-amber-400 transition-all duration-300 group-hover:w-full"></span>
           </a>
           {item.subItems && (
             <ul className="absolute hidden group-hover:block bg-white text-black shadow-lg rounded-lg mt-2 py-2 w-48">
@@ -68,7 +68,7 @@ export default function Navbar() {
                 <li key={subItem.name}>
                   <a
                     href={subItem.path}
-                    className="block px-4 py-2 hover:bg-green-50 hover:text-green-600"
+                    className="block px-4 py-2 hover:bg-green-50 hover:text-amber-600"
                     onClick={(e) => handleProtectedLink(e, item.protected || false)}
                   >
                     {subItem.name}
@@ -88,7 +88,7 @@ export default function Navbar() {
         className={`w-full fixed top-0 left-0 z-50 transition-all duration-300 ${
           isScrolled || isMobileMenuOpen
             ? "bg-white text-black shadow-lg h-16"
-            : "bg-green-600 text-white h-20"
+            : "bg-amber-600 text-white h-20"
         }`}
       >
         <div className="max-w-7xl mx-auto px-4">
@@ -102,7 +102,7 @@ export default function Navbar() {
                 } rounded-full hover:scale-110`}
               />
               <span className="text-xl font-bold">
-                Sahabat<span className="text-green-400">Tani</span>
+                Sahabat<span className="text-amber-400">Tani</span>
               </span>
             </div>
 
@@ -117,13 +117,13 @@ export default function Navbar() {
             <div className="hidden md:flex items-center space-x-4">
               <a
                 href="/login"
-                className="hover:text-green-400 transition-colors duration-200"
+                className="hover:text-amber-400 transition-colors duration-200"
               >
                 Login
               </a>
               <a
                 href="/register"
-                className="bg-green-500 text-white px-6 py-2 rounded-xl shadow-md hover:bg-green-600 transition-all duration-200 hover:scale-105"
+                className="bg-amber-500 text-white px-6 py-2 rounded-xl shadow-md hover:bg-amber-600 transition-all duration-200 hover:scale-105"
               >
                 Daftar
               </a>
@@ -169,14 +169,14 @@ export default function Navbar() {
           <div className="mt-6 px-4 flex flex-col gap-4">
             <a
               href="/login"
-              className="text-center hover:text-green-400 transition-colors duration-200"
+              className="text-center hover:text-amber-400 transition-colors duration-200"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Login
             </a>
             <a
               href="/register"
-              className="text-center bg-green-500 text-white px-6 py-2 rounded-xl shadow-md hover:bg-green-600 transition-all duration-200"
+              className="text-center bg-amber-500 text-white px-6 py-2 rounded-xl shadow-md hover:bg-amber-600 transition-all duration-200"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Daftar
